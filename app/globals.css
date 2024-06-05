@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .maxContainer {
+    @apply mx-auto max-w-[1200px];
+  }
+  .deadCenter {
+    @apply absolute top-1/2 left-1/2 translate-x-1/2 translate-y-1/2;
+  }
+  .textBg,
+  .bgText {
+    @apply bg-primary text-white;
+  }
+  .flexBetween {
+    @apply flex justify-between items-center;
+  }
+  .flexCenter {
+    @apply flex justify-center items-center;
+  }
+  .pSm {
+    @apply px-3 md:px-12;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #2caa6d;
+  border-radius: 50rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2caa6d;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
