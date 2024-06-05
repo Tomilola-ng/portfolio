@@ -7,9 +7,11 @@ export default function AboutPage() {
   return (
     <main role="main" className="maxContainer">
       <Header />
-      <ReactMarkdown className="text-neutral-800 text-sm">
-        {CONTENT}
-      </ReactMarkdown>
+      <div id="description" className="mx-auto max-w-[800px]">
+        <ReactMarkdown className="text-neutral-800 text-sm">
+          {CONTENT}
+        </ReactMarkdown>
+      </div>
     </main>
   );
 }

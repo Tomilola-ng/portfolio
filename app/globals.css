@@ -22,6 +22,94 @@
   .pSm {
     @apply px-3 md:px-12;
   }
+  #description h1,
+  #description h2,
+  #description h3,
+  #description h4,
+  #description h5,
+  #description h6 {
+    @apply mt-6 mb-2 text-gray-800;
+  }
+
+  #description h1 {
+    @apply text-2xl;
+  }
+
+  #description h2 {
+    @apply text-xl font-bold;
+  }
+
+  #description h3 {
+    @apply text-lg font-semibold;
+  }
+
+  #description h4 {
+    @apply text-base;
+  }
+
+  #description h5 {
+    @apply text-sm;
+  }
+
+  #description h6 {
+    @apply text-xs;
+  }
+
+  #description p {
+    @apply mb-6 text-sm;
+  }
+
+  #description a {
+    @apply text-primary underline;
+  }
+
+  #description a:hover,
+  #description a:focus {
+    @apply underline;
+  }
+
+  #description ul,
+  #description ol {
+    @apply mb-6 pl-6;
+  }
+
+  #description li {
+    @apply mb-2;
+  }
+
+  #description blockquote {
+    @apply mb-6 p-4 bg-gray-100 border-l-4 border-primary italic text-gray-600;
+  }
+
+  #description blockquote p {
+    @apply m-0;
+  }
+
+  #description code,
+  #description pre {
+    @apply font-mono;
+  }
+
+  #description pre {
+    @apply bg-gray-200 p-4 overflow-x-auto;
+  }
+
+  #description code {
+    @apply bg-gray-200 px-1 py-0.5 rounded;
+  }
+
+  #description table {
+    @apply w-full border-collapse mb-6;
+  }
+
+  #description th,
+  #description td {
+    @apply p-3 border border-gray-300;
+  }
+
+  #description th {
+    @apply bg-gray-100 text-left;
+  }
 }
 
 ::-webkit-scrollbar {
