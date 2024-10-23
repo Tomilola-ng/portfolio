@@ -68,7 +68,7 @@ export default function HeroSection() {
             </Button>
           </Link>
 
-          <a href="/cv.pdf" download="cv.pdf">
+          <a href="/tomilola-oluwafemi.pdf" download="tomilola-oluwafemi.pdf">
             <Button variant="secondary" className="gap-x-2">
               Download CV <DownloadIcon size={18} />
             </Button>

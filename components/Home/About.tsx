@@ -31,7 +31,7 @@ const infoData: _info_data[] = [
   },
   {
     icon: <SchoolIcon size={20} />,
-    text: "BSC University of Lagos ( In View )",
+    text: "BSC University of Lagos",
   },
 ];
 
@@ -48,13 +48,13 @@ const itemVariants = {
 
 export default function AboutSection() {
   return (
-    <section className="flex justify-between items-center flex-col md:flex-row maxContainer pSm py-12">
+    <section className="flex justify-between items-center flex-col gap-y-6 md:flex-row maxContainer pSm py-12">
       <motion.div variants={itemVariants} className="md:w-2/5">
         <DevImg />
       </motion.div>
       <div className="md:w-2/5">
         <motion.div variants={itemVariants}>
-          <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
+          <div className="text-sm uppercase text-center md:text-left font-semibold mb-4 text-primary tracking-[4px]">
             About me
           </div>
         </motion.div>
